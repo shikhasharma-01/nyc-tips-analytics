@@ -3,7 +3,12 @@
 This project analyzes restaurant tipping behavior in New York City using Python.
 
 ## Objective
-To calculate key metrics (total revenue, average tip %) and identify which day of the week has the highest average tipping.
+To calculate key metrics (total revenue, average tip %) and identify which day of the week has the highest average tipping. ## 📊 Visualization
+
+Average tip percentage by day of the week:
+
+![Average Tip by Day](avg_tip_by_day.png)
+
 
 ## Tools Used
 - Python
