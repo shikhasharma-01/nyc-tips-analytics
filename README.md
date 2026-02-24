@@ -9,7 +9,6 @@ Average tip percentage by day of the week:
 
 ![Average Tip by Day](avg_tip_by_day.png)
 
-
 ##  Key Insights
 - The highest average tipping percentage occurs on Sundays.
 - Average tip percentage across all transactions is approximately 16.6%.

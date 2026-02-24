@@ -1,3 +1,12 @@
 Total Revenue: $1159.75
 Average Tip Percentage: 16.63%
 Best Tipping Day: Sun
+
+Borough Analysis:
+borough
+Bronx            14.025646
+Brooklyn         18.021628
+Manhattan        16.896906
+Queens           16.601969
+Staten Island    16.224189
+Best Tipping Borough: Brooklyn
