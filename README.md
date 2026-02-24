@@ -1,44 +1,54 @@
 # NYC Tips Analytics
 
-This project analyzes restaurant tipping behavior in New York City using Python.
+End-to-end Python data analytics project exploring NYC restaurant tipping behavior using transaction-level data.
+
+This project analyzes tipping patterns across **days of the week** and **NYC boroughs** to uncover customer behavior trends and practical business insights.
+
+---
 
 ## Objective
-To calculate key metrics (total revenue, average tip %) and identify which day of the week has the highest average tipping. ## 📊 Visualization
+Analyze tipping behavior by calculating key metrics (total revenue, average tip %) and identifying patterns by day and borough.
 
-Average tip percentage by day of the week:
+---
 
+## Visualizations
+
+### Average Tip Percentage by Day
 ![Average Tip by Day](avg_tip_by_day.png)
 
+### Average Tip Percentage by Borough
+![Borough Tip Analysis](avg_tip_by_borough.png)
 
-- The highest average tipping percentage occurs on Sundays.
-- Average tip percentage across all transactions is approximately 16.6%.
-- Weekend dining behavior shows higher tipping trends compared to weekdays.
+---
 
-## 🛠️ Tech Stack
+## Key Insights
+- The highest average tipping percentage occurs on **Sundays**.
+- The overall average tip percentage across transactions is **~16.63%**.
+- **Brooklyn** shows the highest average tip percentage among boroughs (based on this dataset).
+- Location context (borough) adds a geo-analytics layer that can support staffing and pricing strategy.
+
+---
+
+## Tech Stack
 - Python
 - pandas
 - matplotlib
 - CSV data processing
 
-## Tools Used
-- Python
-- pandas
-- matplotlib
+---
 
 ## Files in this Project
 - `Tips.csv` — dataset used for analysis  
-- `tips_analyzer.py` — main Python script  
+- `tips_analyzer.py` — main Python analysis script  
 - `results.txt` — saved summary output  
-- `avg_tip_by_day.png` — bar chart visualization  
+- `avg_tip_by_day.png` — day-level visualization  
+- `avg_tip_by_borough.png` — borough-level visualization  
 
-## Key Findings
-- Total revenue: $1159.75  
-- Average tip percentage: 16.63%  
-- Best tipping day: Sunday  
+---
 
-## How to Run
-1. Open Terminal in the project folder
+##  How to Run
+1. Open Terminal in the project folder  
 2. Run:
-   ```bash
-   python3 tips_analyzer.py
 
+```bash
+python3 tips_analyzer.py
